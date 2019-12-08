@@ -7,7 +7,8 @@ Estudo sobre técnicas de fabrição usando [comando númerico](https://pt.wikip
  * [tex](tex): Código fonte dos relatórios
  * [src](src): Arquivos em Código G
 
-![Torno Simulação](tex/img/relat1/sim-webcnc.png)
+![Simulação feita no Web CNC Simulator](tex/img/relat1/sim-webcnc.png)
 
 ## Referências
  
+  * [Web CNC Simulator](https://github.com/filipecaixeta/cncwebsim)

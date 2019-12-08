@@ -1,0 +1,47 @@
+% Pacotes e configurações padrão do estilo "article"\
+% -------------------------------------
+\documentclass[a4paper,11pt]{article}
+
+% Engine-specific settings
+% Detect pdftex/xetex/luatex, and load appropriate font packages.
+% This is inspired by the approach in the iftex package.
+% pdftex:
+\ifx\pdfmatch\undefined
+\else
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+\fi
+% xetex:
+\ifx\XeTeXinterchartoks\undefined
+\else
+    \usepackage{fontspec}
+    \defaultfontfeatures{Ligatures=TeX}
+\fi
+% luatex:
+\ifx\directlua\undefined
+\else
+    \usepackage{fontspec}
+\fi
+% End engine-specific settings
+
+% Layout
+% --------------------------------------------------------------------------------
+\usepackage{pdfpages} % Pacote para inserir um PDF dentro do LaTeX
+\input{relat_layout.tex}
+\newcommand{\tituloRelatorio}{Jornal Entry - Class 1}
+\title{\tituloRelatorio}
+\hypersetup{pdftitle={\tituloRelatorio}}% title
+% Definições Auxiliares
+% -----------------------------------------------------------------
+%\input{relat_aux.tex}
+% ----------------------------------~>ø<~---------------------------------------
+\begin{document}
+% Capa e Índice ---------------------------------------------------------------
+
+
+% Conteudo -------------------------------------------------------------------
+
+\section{Introduction}
+
+% ---------------------------------------------------------------------------------------
+\end{document}

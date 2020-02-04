@@ -1,4 +1,4 @@
-# Tecnologia de Comando Numérico
+# G Code Sandbox
 
 Estudo sobre técnicas de fabrição usando [comando númerico](https://pt.wikipedia.org/wiki/Código_G) para torno e fresa.
 
